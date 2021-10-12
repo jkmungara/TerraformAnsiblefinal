@@ -13,8 +13,3 @@
   service:
     name: php7.0-fpm
     state: restarted
-
-- name: Restart Apache
-  service:
-    name: apache
-    state: restarted
